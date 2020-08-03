@@ -1,0 +1,59 @@
+body{
+    font-style: 'Open Sans',sans-serif;
+    background-color: orangered;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    background-image: url("calcibg.jpg");
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: mediumspringgreen;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 400px;
+}
+.number{
+    background-color: floralwhite;
+    cursor: pointer;
+}
+.operator{
+    background-color: red;
+    cursor: pointer;
+}
+.empty{
+    background-color: mediumspringgreen;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+}
